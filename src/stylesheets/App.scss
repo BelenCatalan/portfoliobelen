@@ -1,0 +1,136 @@
+@import './home.scss';
+@import './portfolio';
+@import './about.scss';
+@import './slide';
+@import './project';
+@import './contact.scss';
+
+.App {
+  text-align: center;
+  position: relative;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.main__container {
+}
+
+.main__background {
+  height: 100%;
+  width: 100%;
+  background-image: url('../images/verticalback.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media all and (min-width: 768px) {
+    background-image: url('../images/back.jpg');
+  }
+}
+
+.scroll {
+  background-attachment: scroll;
+}
+
+.header__div {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 1000;
+  min-height: 60px;
+  max-width: 900px;
+  display: flex;
+  justify-content: center;
+
+  @media all and (min-width: 768px) {
+    margin-right: 5px;
+    max-width: 440px;
+  }
+  @media all and (min-width: 1058px) {
+    max-width: 510px;
+  }
+  @media all and (min-width: 1058px) {
+    max-width: 680px;
+  }
+  @media all and (min-width: 1700px) {
+    max-width: 900px;
+  }
+}
+
+.header__list {
+  list-style: none;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  margin-top: 20px;
+  padding-left: 0px;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 0.85em;
+  line-height: 1.8em;
+  text-align: center;
+  text-decoration: inherit;
+  letter-spacing: 0.01em;
+  color: black;
+}
+.header__li {
+  text-decoration: none;
+  margin: 0px 8px 0px 8px;
+  cursor: pointer;
+  color: black;
+  @media all and (min-width: 480px) {
+    flex-direction: row;
+    margin: 0px 12px 0px 12px;
+  }
+}
+.header__li:hover {
+  color: gray;
+}
+
+.footer__list {
+  flex-direction: column;
+  @media all and (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: gray;
+}

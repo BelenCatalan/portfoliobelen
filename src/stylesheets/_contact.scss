@@ -1,0 +1,147 @@
+.contact {
+  &__div {
+    width: 280px;
+    height: 35%;
+    margin-right: 20px;
+    margin-left: 20px;
+    z-index: 1000;
+    min-height: 60px;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 3px rgba(1, 1, 1, 0.2);
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    // @media all and (min-width: 480px) {
+    //   width: 90vw;
+    //   height: 73vh;
+    //   margin-bottom: 6%;
+    // }
+    @media all and (min-width: 768px) {
+      height: 45%;
+      margin-bottom: 0%;
+    }
+    @media all and (min-width: 1200px) {
+      width: 300px;
+      height: 33%;
+      margin-top: 3%;
+    }
+    // @media all and (min-width: 1440px) {
+    //   margin-top: 3%;
+    //   max-width: 1200px;
+    //   width: 300vw;
+    //   height: 70vh;
+    // }
+    // @media all and (min-width: 1700px) {
+    //   max-width: 1200px;
+    //   width: 300vw;
+    //   height: 70vh;
+    // }
+  }
+  &__img {
+    display: block;
+    width: 100%;
+    // height: 190px;
+    background-size: cover;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 5px;
+  }
+  &__div--form {
+    width: 240px;
+    height: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 1000;
+    min-height: 60px;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    // box-shadow: 2px 4px 5px rgb(185, 185, 185);
+    box-shadow: 2px 2px 3px rgba(1, 1, 1, 0.2);
+    border-radius: 5px;
+    border: 1px solid rgb(128, 129, 129);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    @media all and (min-width: 768px) {
+      margin-top: 3%;
+      width: 280px;
+      height: 90%;
+    }
+    @media all and (min-width: 1200px) {
+      margin-right: 20px;
+      margin-left: 20px;
+      width: 320px;
+    }
+    @media all and (min-width: 1440px) {
+      margin-right: 20px;
+      margin-left: 20px;
+      width: 400px;
+    }
+  }
+  &__form {
+    @media all and (min-width: 1200px) {
+      width: 70%;
+    }
+  }
+  &__imputs {
+    display: block;
+    text-align: left;
+    width: 100%;
+    height: 25%;
+    padding-left: 3%;
+    outline-color: grey;
+    margin-top: 6%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    border: 1px solid rgb(128, 129, 129);
+    font-family: 'Source Code Pro', monospace;
+    font-size: 0.7em;
+    color: rgb(92, 91, 91);
+    @media all and (min-width: 1200px) {
+    }
+  }
+  &__imputs:nth-child(3n) {
+    height: 60%;
+    margin-bottom: 6%;
+  }
+
+  &__p {
+    align-self: flex-start;
+    margin-left: 17%;
+    display: block;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    text-align: left;
+    @media all and (min-width: 1200px) {
+      margin-top: 6%;
+    }
+  }
+  &__button--div {
+    align-self: flex-start;
+    display: flex;
+    align-items: left;
+  }
+  &__button {
+    text-decoration: none;
+    text-align: left;
+    background: none;
+    background-color: rgb(167, 165, 165);
+    color: inherit;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid rgb(128, 129, 129);
+    padding: 0;
+    font-family: 'Source Code Pro', monospace;
+    cursor: pointer;
+    outline: inherit;
+    padding: 4%;
+  }
+}

@@ -1,0 +1,172 @@
+.about {
+  &__div {
+    width: 100%;
+    height: 70vh;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 1000;
+    min-height: 60px;
+    max-width: 900px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 5px 3px rgba(1, 1, 1, 0.2);
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: rgba(255, 255, 255, 0.8);
+    @media all and (min-width: 480px) {
+      width: 90vw;
+      height: 73vh;
+      margin-bottom: 6%;
+    }
+    @media all and (min-width: 768px) {
+      width: 80vw;
+      height: 70vh;
+      margin-bottom: 6%;
+    }
+    @media all and (min-width: 1200px) {
+      width: 85vw;
+      height: 70vh;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: center;
+    }
+    @media all and (min-width: 1440px) {
+      margin-top: 3%;
+      max-width: 1200px;
+      width: 300vw;
+      height: 70vh;
+    }
+    @media all and (min-width: 1700px) {
+      max-width: 1200px;
+      width: 300vw;
+      height: 70vh;
+    }
+  }
+  &__h4 {
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 15px;
+    font-size: 1.5em;
+    color: rgb(63, 63, 63);
+    @media all and (min-width: 1200px) {
+      font-size: 1.5em;
+      margin-top: 0;
+    }
+  }
+
+  &__p {
+    // font-family: 'Source Code Pro', monospace;
+    font-family: Roboto;
+    font-size: 0.8em;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    margin-top: 6px;
+    color: rgb(92, 91, 91);
+    text-align: justify;
+    @media all and (min-width: 480px) {
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+    @media all and (min-width: 768px) {
+      margin-right: 25px;
+      margin-left: 25px;
+      font-size: 0.9em;
+      text-align: left;
+    }
+    @media all and (min-width: 1200px) {
+      font-size: 1em;
+      text-align: left;
+    }
+  }
+  &__p--music {
+    font-family: Roboto;
+    font-size: 0.8em;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    margin-top: 6px;
+    color: rgb(92, 91, 91);
+    text-align: justify;
+    align-self: flex-start;
+    @media all and (min-width: 480px) {
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+    @media all and (min-width: 768px) {
+      margin-right: 25px;
+      margin-left: 25px;
+      font-size: 0.9em;
+    }
+    @media all and (min-width: 1200px) {
+      font-size: 1em;
+    }
+  }
+
+  &__img {
+    width: 90%;
+    text-align: center;
+    align-self: center;
+    margin-top: 250px;
+  }
+  &__span {
+    font-weight: bold;
+  }
+
+  &__ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 200px;
+    align-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  &__li {
+    display: inline;
+    margin-left: 8px;
+    color: #5c5b5b;
+    @media all and (min-width: 768px) {
+      font-size: 1.2em;
+    }
+    @media all and (min-width: 1200px) {
+      font-size: 1.4em;
+    }
+  }
+
+  &__h5 {
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(63, 63, 63);
+    margin-top: 10%;
+    @media all and (min-width: 768px) {
+      font-size: 1em;
+    }
+    @media all and (min-width: 1200px) {
+      font-size: 1.2em;
+    }
+  }
+  &__div--bien {
+    @media all and (min-width: 1200px) {
+      width: 30%;
+      margin-top: 6%;
+    }
+  }
+
+  &__div--text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media all and (min-width: 1200px) {
+      width: 70%;
+      margin-top: 6%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-right: 3%;
+    }
+  }
+}

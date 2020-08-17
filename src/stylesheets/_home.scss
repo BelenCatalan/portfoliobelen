@@ -1,0 +1,107 @@
+.home {
+  &__div {
+    width: 90vw;
+    height: 70vh;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 1000;
+    min-height: 60px;
+    max-width: 900px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-content: flex-end;
+    justify-items: flex-end;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 1px 5px 3px rgba(1, 1, 1, 0.2);
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: rgba(255, 255, 255, 0.8);
+    @media all and (min-width: 480px) {
+      width: 90vw;
+      height: 73vh;
+      margin-bottom: 6%;
+      justify-content: flex-end;
+
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+    @media all and (min-width: 768px) {
+      width: 80vw;
+      height: 70vh;
+
+      margin-bottom: 6%;
+      background-color: transparent;
+      box-shadow: none;
+    }
+    @media all and (min-width: 1200px) {
+      width: 85vw;
+      height: 70vh;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: center;
+    }
+    @media all and (min-width: 1440px) {
+      margin-top: 3%;
+      max-width: 1200px;
+      width: 300vw;
+      height: 70vh;
+    }
+    @media all and (min-width: 1700px) {
+      max-width: 1200px;
+      width: 300vw;
+      height: 70vh;
+    }
+  }
+  &__name {
+    width: 77%;
+    height: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left;
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 15px;
+    font-size: 1.4em;
+    color: rgb(63, 63, 63);
+    @media all and (min-width: 480px) {
+      font-size: 1.6em;
+    }
+    @media all and (min-width: 1200px) {
+      width: 100%;
+      font-size: 1.6em;
+    }
+  }
+  &__quote {
+    width: 70%;
+    height: 20%;
+    margin-left: 20%;
+    margin-right: 10%;
+    margin-top: 45%;
+    margin-bottom: 10%;
+    text-align: right;
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(92, 91, 91);
+    @media all and (min-width: 480px) {
+      margin-top: 30%;
+      margin-bottom: 15%;
+    }
+    @media all and (min-width: 768px) {
+      margin-top: 6%;
+    }
+    @media all and (min-width: 1200px) {
+      width: 100%;
+      margin-top: 6%;
+    }
+  }
+  &__h4 {
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 15px;
+    font-size: 1.5em;
+    color: rgb(63, 63, 63);
+    @media all and (min-width: 1200px) {
+      font-size: 1.6em;
+      margin-top: 0;
+    }
+  }
+}
