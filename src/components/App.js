@@ -16,13 +16,28 @@ function App() {
     <TransitionGroup>
       <CSSTransition key={location.key} classNames="slide" timeout={1000}>
         <Switch location={location}>
-          <Redirect exact from="/portfoliobelen/" to="/Home" />
-          <Route path="/Home" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/portfolio" component={Portfolio} />
-          <Route path="/contact" component={Contact}>
-            {/* <Contact handleContactText={handleContactText} formImput={formImput}/> */}
+          {/* <Redirect exact from="/portfoliobelen/" to="/Home" /> */}
+          {/* <Route path="/Home" component={Home} /> */}
+          <Route exact path="/">
+            <Home />
           </Route>
+          <Route path="/Home">
+            <Home />
+          </Route>
+          {/* <Route path="/about" component={About} /> */}
+          <Route path="/about">
+            <About />
+          </Route>
+          {/* <Route path="/portfolio" component={Portfolio} /> */}
+          <Route path="/portfolio">
+            <Portfolio />
+          </Route>
+          {/* <Route path="/contact" component={Contact}> */}
+          <Route path="/contact">
+            <Contact />
+          </Route>
+          {/* <Contact handleContactText={handleContactText} formImput={formImput}/> */}
+          {/* </Route> */}
         </Switch>
       </CSSTransition>
     </TransitionGroup>
