@@ -1,5 +1,4 @@
 import React from 'react';
-import aboutme from '../images/iconsabout.jpg';
 import '../stylesheets/App.scss';
 import { FaHtml5 } from 'react-icons/fa';
 import { FaCss3 } from 'react-icons/fa';
