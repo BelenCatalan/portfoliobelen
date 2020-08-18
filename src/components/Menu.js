@@ -8,7 +8,7 @@ function Menu() {
     <div className="header__div">
       <ul className="header__list">
         <li className="header__li">
-          <Link to="portfoliobelen/">Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li className="header__li">
           <Link to="/About">Sobre mi</Link>
