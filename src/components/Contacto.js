@@ -55,9 +55,7 @@ function Contact(props) {
 
   return (
     <div className="about__div">
-      <div className="contact__div">
-        <img className="contact__img" src={belen} alt=""></img>
-      </div>
+      <div className="contact__div contact__img">{/* <img className="contact__img" src={belen} alt=""></img> */}</div>
       <div className="contact__div--form">
         <p className="contact__p">Hablemos!</p>
         <form className="contact__form" onSubmit={handleOnSubmit}>
