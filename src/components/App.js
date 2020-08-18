@@ -18,12 +18,12 @@ function App() {
         <Switch location={location}>
           {/* <Redirect exact from="/portfoliobelen/" to="/Home" /> */}
           {/* <Route path="/Home" component={Home} /> */}
-          <Route exact path="/">
+          <Route exact path="portfoliobelen/">
             <Home />
           </Route>
-          <Route path="/Home">
+          {/* <Route path="/Home"> 
             <Home />
-          </Route>
+          </Route> */}
           {/* <Route path="/about" component={About} /> */}
           <Route path="/about">
             <About />
