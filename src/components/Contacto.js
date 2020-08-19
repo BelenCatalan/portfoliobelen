@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 // import aboutme from '../images/iconsabout.jpg';
 import '../stylesheets/App.scss';
 import axios from 'axios';
-import belenmedia from '../images/belenmedia.jpg';
 import belen from '../images/belen.jpg';
 
 function Contact(props) {
