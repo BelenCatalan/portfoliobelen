@@ -1,9 +1,6 @@
 import React, { useState, useRef } from 'react';
 import '../stylesheets/App.scss';
 import { CSSTransition } from 'react-transition-group';
-import { FaHtml5 } from 'react-icons/fa';
-import { FaCss3 } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 function Project(props) {
   console.log(props);
@@ -29,7 +26,7 @@ function Project(props) {
         <div className="project__dark">
           {props.description}
           <button className="project__button--dark" onClick={handleLink}>
-            <a href={props.project} target="_blank" rel="noreferrer">
+            <a href={props.project} target="_blank" rel="noopener noreferrer">
               Ver proyecto
             </a>
           </button>
