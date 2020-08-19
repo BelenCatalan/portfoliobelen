@@ -16,7 +16,7 @@ function App() {
     <TransitionGroup>
       <CSSTransition key={location.key} classNames="slide" timeout={1000}>
         <Switch location={location}>
-          {/* <Redirect exact from="/portfoliobelen/" to="/Home" /> */}
+          <Redirect exact from="/" to="/Home" />
           {/* <Route path="/Home" component={Home} /> */}
           <Route path="/" exact>
             <Home />
