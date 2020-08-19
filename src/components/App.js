@@ -18,22 +18,22 @@ function App() {
         <Switch location={location}>
           {/* <Redirect exact from="/portfoliobelen/" to="/Home" /> */}
           {/* <Route path="/Home" component={Home} /> */}
-          <Route path="portfoliobelen/" exact>
+          <Route path="/" exact>
             <Home />
           </Route>
           {/* <Route path="/Home"> 
             <Home />
           </Route> */}
           {/* <Route path="/about" component={About} /> */}
-          <Route path="portfoliobelen/about">
+          <Route path="/about">
             <About />
           </Route>
           {/* <Route path="/portfolio" component={Portfolio} /> */}
-          <Route path="portfoliobelen/portfolio">
+          <Route path="/portfolio">
             <Portfolio />
           </Route>
           {/* <Route path="/contact" component={Contact}> */}
-          <Route path="portfoliobelen/contact">
+          <Route path="/contact">
             <Contact />
           </Route>
           {/* <Contact handleContactText={handleContactText} formImput={formImput}/> */}
