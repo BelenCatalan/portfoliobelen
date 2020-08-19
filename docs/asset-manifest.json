@@ -1,30 +1,29 @@
 {
   "files": {
-    "main.css": "/portfoliobelen/static/css/main.23d4e1a7.chunk.css",
-    "main.js": "/portfoliobelen/static/js/main.d202f1b1.chunk.js",
-    "main.js.map": "/portfoliobelen/static/js/main.d202f1b1.chunk.js.map",
-    "runtime-main.js": "/portfoliobelen/static/js/runtime-main.367c8850.js",
-    "runtime-main.js.map": "/portfoliobelen/static/js/runtime-main.367c8850.js.map",
-    "static/js/2.d685e656.chunk.js": "/portfoliobelen/static/js/2.d685e656.chunk.js",
-    "static/js/2.d685e656.chunk.js.map": "/portfoliobelen/static/js/2.d685e656.chunk.js.map",
-    "index.html": "/portfoliobelen/index.html",
-    "precache-manifest.120cd26850668f31b5303a3e78abdf5e.js": "/portfoliobelen/precache-manifest.120cd26850668f31b5303a3e78abdf5e.js",
-    "service-worker.js": "/portfoliobelen/service-worker.js",
-    "static/css/main.23d4e1a7.chunk.css.map": "/portfoliobelen/static/css/main.23d4e1a7.chunk.css.map",
-    "static/js/2.d685e656.chunk.js.LICENSE.txt": "/portfoliobelen/static/js/2.d685e656.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/portfoliobelen/static/media/verticalback.0a604b2d.jpg",
-    "static/media/belen.jpg": "/portfoliobelen/static/media/belen.593f1940.jpg",
-    "static/media/belenmedia.jpg": "/portfoliobelen/static/media/belenmedia.e87387d8.jpg",
-    "static/media/cardsjs.jpeg": "/portfoliobelen/static/media/cardsjs.7411bab2.jpeg",
-    "static/media/cardsreact.jpeg": "/portfoliobelen/static/media/cardsreact.80f6b2ba.jpeg",
-    "static/media/code-fiction.jpeg": "/portfoliobelen/static/media/code-fiction.8e8eca61.jpeg",
-    "static/media/rickandmorty.png": "/portfoliobelen/static/media/rickandmorty.501637b9.png",
-    "static/media/seriecortadados.jpeg": "/portfoliobelen/static/media/seriecortadados.2dc14cb2.jpeg"
+    "main.css": "/static/css/main.a7d037ab.chunk.css",
+    "main.js": "/static/js/main.0da07ab1.chunk.js",
+    "main.js.map": "/static/js/main.0da07ab1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4ff1d812.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4ff1d812.js.map",
+    "static/js/2.d739b333.chunk.js": "/static/js/2.d739b333.chunk.js",
+    "static/js/2.d739b333.chunk.js.map": "/static/js/2.d739b333.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.65db77029a1bb513bd3d0fcd9aacccea.js": "/precache-manifest.65db77029a1bb513bd3d0fcd9aacccea.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.a7d037ab.chunk.css.map": "/static/css/main.a7d037ab.chunk.css.map",
+    "static/js/2.d739b333.chunk.js.LICENSE.txt": "/static/js/2.d739b333.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/static/media/verticalback.0a604b2d.jpg",
+    "static/media/belen.jpg": "/static/media/belen.593f1940.jpg",
+    "static/media/cardsjs.jpeg": "/static/media/cardsjs.7411bab2.jpeg",
+    "static/media/cardsreact.jpeg": "/static/media/cardsreact.80f6b2ba.jpeg",
+    "static/media/code-fiction.jpeg": "/static/media/code-fiction.8e8eca61.jpeg",
+    "static/media/rickandmorty.png": "/static/media/rickandmorty.501637b9.png",
+    "static/media/seriecortadados.jpeg": "/static/media/seriecortadados.2dc14cb2.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.367c8850.js",
-    "static/js/2.d685e656.chunk.js",
-    "static/css/main.23d4e1a7.chunk.css",
-    "static/js/main.d202f1b1.chunk.js"
+    "static/js/runtime-main.4ff1d812.js",
+    "static/js/2.d739b333.chunk.js",
+    "static/css/main.a7d037ab.chunk.css",
+    "static/js/main.0da07ab1.chunk.js"
   ]
 }
