@@ -20,6 +20,9 @@ function App() {
           <Redirect exact from="/" to="/Home">
             <Home />
           </Redirect>
+          <Redirect exact from="/portfoliobelen" to="/Home">
+            <Home />
+          </Redirect>
           {/* <Route path="/Home" component={Home} /> */}
           <Route path="/Home">
             <Home />
@@ -28,7 +31,7 @@ function App() {
             <Home />
           </Route> */}
           {/* <Route path="/about" component={About} /> */}
-          <Route path="/about">
+          <Route path="/About">
             <About />
           </Route>
           {/* <Route path="/portfolio" component={Portfolio} /> */}
