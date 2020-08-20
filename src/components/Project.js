@@ -16,8 +16,11 @@ function Project(props) {
   };
 
   const printIcons = () => {
-    // props.icons.map((icon) => {
-    return <small className="project__text--color project__text--small">{props.icons}</small>;
+    return (
+      <small key={props.icons} className="project__text--color project__text--small">
+        {props.icons}
+      </small>
+    );
   };
 
   return (
