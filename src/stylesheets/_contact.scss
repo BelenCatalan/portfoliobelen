@@ -1,6 +1,6 @@
 .contact {
   &__div {
-    width: 280px;
+    // width: 280px;
     height: 35%;
     margin-right: 20px;
     margin-left: 20px;
@@ -16,12 +16,11 @@
     margin-top: 5%;
     margin-bottom: 5%;
 
-    // @media all and (min-width: 480px) {
-    //   width: 90vw;
-    //   height: 73vh;
-    //   margin-bottom: 6%;
-    // }
+    @media all and (min-width: 480px) {
+      width: 60%;
+    }
     @media all and (min-width: 768px) {
+      width: 45%;
       height: 45%;
       margin-bottom: 0%;
     }
@@ -51,7 +50,6 @@
     object-fit: cover;
     object-position: center center;
     border-radius: 5px;
-    background-image: url('../images/belen.jpg');
   }
   &__div--form {
     width: 240px;

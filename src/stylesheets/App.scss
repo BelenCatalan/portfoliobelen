@@ -78,16 +78,19 @@
 
   @media all and (min-width: 768px) {
     margin-right: 5px;
-    max-width: 440px;
+    max-width: 520px;
   }
-  @media all and (min-width: 1058px) {
-    max-width: 510px;
-  }
+  // @media all and (min-width: 1058px) {
+  //   max-width: 510px;
+  // }
   @media all and (min-width: 1058px) {
     max-width: 680px;
   }
+  @media all and (min-width: 1318px) {
+    max-width: 780px;
+  }
   @media all and (min-width: 1700px) {
-    max-width: 900px;
+    max-width: 980px;
   }
 }
 

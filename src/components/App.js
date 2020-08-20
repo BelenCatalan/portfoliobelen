@@ -55,17 +55,17 @@ function App() {
   return (
     // <div className="">
     <>
-      <BrowserRouter>
-        <header className="">
-          <Menu />
-        </header>
-        <main className="">
-          <div className=" main__background App">
-            {/* <Redirect from="/" to="/home" /> */}
-            <AnimatedSwitch />
-          </div>
-        </main>
-      </BrowserRouter>
+      {/* <BrowserRouter> */}
+      <header className="">
+        <Menu />
+      </header>
+      <main className="">
+        <div className=" main__background App">
+          {/* <Redirect from="/" to="/home" /> */}
+          <AnimatedSwitch />
+        </div>
+      </main>
+      {/* </BrowserRouter> */}
       <Footer />
     </>
     /* </div> */

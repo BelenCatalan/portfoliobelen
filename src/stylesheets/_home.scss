@@ -18,14 +18,14 @@
     border-radius: 5px;
     margin-top: 5%;
     margin-bottom: 5%;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.7);
     @media all and (min-width: 480px) {
       width: 90vw;
       height: 73vh;
       margin-bottom: 6%;
       justify-content: flex-end;
 
-      background-color: rgba(255, 255, 255, 0.5);
+      background-color: rgba(255, 255, 255, 0.7);
     }
     @media all and (min-width: 768px) {
       width: 80vw;
@@ -38,9 +38,10 @@
     @media all and (min-width: 1200px) {
       width: 85vw;
       height: 70vh;
-      flex-direction: row;
-      align-items: flex-start;
-      justify-content: center;
+
+      // flex-direction: row;
+      // align-items: flex-start;
+      // justify-content: center;
     }
     @media all and (min-width: 1440px) {
       margin-top: 3%;
@@ -68,8 +69,13 @@
       font-size: 1.6em;
     }
     @media all and (min-width: 1200px) {
-      width: 100%;
       font-size: 1.6em;
+    }
+    @media all and (min-width: 1440px) {
+      height: 13%;
+      width: 70%;
+    }
+    @media all and (min-width: 1700px) {
     }
   }
   &__quote {
@@ -90,8 +96,17 @@
       margin-top: 6%;
     }
     @media all and (min-width: 1200px) {
-      width: 100%;
-      margin-top: 6%;
+      width: 70%;
+      margin-top: 1%;
+      margin-bottom: 9%;
+    }
+    @media all and (min-width: 1440px) {
+      width: 60%;
+      margin-right: 30%;
+      margin-left: 35%;
+    }
+    @media all and (min-width: 1700px) {
+      font-size: 1.1em;
     }
   }
   &__h4 {
@@ -102,6 +117,7 @@
     @media all and (min-width: 1200px) {
       font-size: 1.6em;
       margin-top: 0;
+      margin-bottom: 5%;
     }
   }
 }
