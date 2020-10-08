@@ -27,7 +27,7 @@ function App() {
             <Home />
           </Redirect>
           {/* <Route path="/Home" component={Home} /> */}
-          <Route path="/Home">
+          <Route path="/">
             <Home />
           </Route>
           {/* <Route path="/Home"> 
