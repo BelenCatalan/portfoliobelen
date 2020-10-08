@@ -20,7 +20,7 @@ function App() {
           <Redirect exact from="/" to="/Home">
             <Home />
           </Redirect>
-          <Redirect exact from="/portfoliobelen" to="/Home">
+          <Redirect exact from="belencatalan.github.io/portfoliobelen" to="/Home">
             <Home />
           </Redirect>
           {/* <Redirect exact from="belencatalan.github.io/Home" to="/Home">
