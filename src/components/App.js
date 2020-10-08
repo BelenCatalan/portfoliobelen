@@ -23,9 +23,9 @@ function App() {
           <Redirect exact from="/portfoliobelen" to="/Home">
             <Home />
           </Redirect>
-          <Redirect exact from="belencatalan.github.io/Home" to="/Home">
+          {/* <Redirect exact from="belencatalan.github.io/Home" to="/Home">
             <Home />
-          </Redirect>
+          </Redirect> */}
           {/* <Route path="/Home" component={Home} /> */}
           <Route path="/Home">
             <Home />
